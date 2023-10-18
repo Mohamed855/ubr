@@ -1,0 +1,20 @@
+body {--primary: #cb7134; --secondary: #bb622a; --third: #ffffff; --input: #707681; --text: rgba(208, 208, 208, 0.87); --dark: #000000; --popup: rgba(160, 160, 160, 0.5);}
+body {max-height: 100vh; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; color: var(--third); overflow: hidden;}
+a:hover {color: var(--secondary);}
+.vectors {max-width: 600px;}
+.time {width: 100px;}
+.text-secondary-color {color: var(--primary); text-decoration: none;}
+.custom-input {max-width: 350px; font-size: 16px; color: var(--input);}
+.custom-text {max-width: 350px; font-size: 16px; color: var(--text);}
+.custom-button {min-width: 150px; min-height: 40px; background-color: var(--primary); color: var(--third);}
+.custom-button:hover {background-color: var(--secondary); color: var(--third);}
+.footer-image {max-width: 100px;}
+.popup {display: none; position: fixed; background-color: var(--popup); backdrop-filter: blur(10px); border-radius: 25px; padding: 50px; top: 4%; right: 5%; bottom: 4%; left: 5%;}
+.ele-box {height: 100%; overflow-y: scroll;}
+.card {position: relative; min-width: 140px; cursor: pointer; padding: 10px 0 35px 0;}
+.card-title {color: var(--dark); font-size: 16px;}
+.card-text {color: var(--dark); font-size: 14px; margin-top: -5px !important;}
+.card-main {color: var(--secondary); font-size: 35px; margin-top: -5px !important;}
+.s-color {color: var(--secondary) !important;}
+.bottom {position: absolute; background-color: var(--secondary); border-radius: 0 0 5px 5px; bottom: 0; right: 0; left: 0;}
+.bottom .text {color: var(--third); font-size: 14px; margin-bottom: 3px;}
